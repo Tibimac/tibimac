@@ -19,6 +19,7 @@ jobs:
           user: tibimac
           template: classic
           config_timezone: Europe/Paris
+          config_order: base.header, introduction, base.activity+community, base.repositories, lines, languages, sponsorships, achievements
           # base
           base: header, activity, community, repositories, metadata
           base_indepth: true
@@ -28,5 +29,6 @@ jobs:
           plugin_languages: yes
           # sponsorships
           plugin_sponsorships: yes
+          plugin_sponsorships_size: 32
           # achievements
           plugin_achievements: yes

@@ -30,5 +30,3 @@ jobs:
           plugin_sponsorships: yes
           # achievements
           plugin_achievements: yes
-          # setup plugin order
-          config_order: base, lines, languages, sponsorships, achievements

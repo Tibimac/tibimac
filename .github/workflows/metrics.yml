@@ -1,0 +1,32 @@
+name: Metrics
+on:
+  schedule: [{ cron: "0 */2 * * *" }]
+  workflow_dispatch:
+  push: { branches: ["main"] }
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      # See action.yml for all options
+      - uses: lowlighter/metrics@latest
+        with:
+          # core
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: tibimac
+          use_prebuilt_image: yes
+          template: classic
+          config_timezone: Europe/Paris
+          plugin_lines: yes
+          plugin_stargazers: no
+          # base
+          base: header, activity, community, repositories, metadata
+          base_indepth: true
+          # languages
+          plugin_languages: yes
+          # followup
+          plugin_followup: yes
+          # achievements
+          plugin_achievements: yes
+          # sponsorships
+          plugin_sponsorships: yes
+                  

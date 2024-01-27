@@ -13,14 +13,13 @@ jobs:
           # core
           token: ${{ secrets.METRICS_TOKEN }}
           user: tibimac
-          use_prebuilt_image: yes
           template: classic
           config_timezone: Europe/Paris
-          plugin_lines: yes
-          plugin_stargazers: no
           # base
           base: header, activity, community, repositories, metadata
           base_indepth: true
+          # lines
+          plugin_lines: yes
           # languages
           plugin_languages: yes
           # followup

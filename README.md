@@ -1,5 +1,3 @@
-### Hi there 👋
-
 <!--
 **Tibimac/tibimac** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
@@ -14,3 +12,7 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+![Metrics](https://github.com/Tibimac/tibimac/blob/main/github-metrics.svg)
+
+<!-- <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tibimac&layout=compact" alt="tibimac" /></p> -->

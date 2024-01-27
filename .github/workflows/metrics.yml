@@ -22,14 +22,14 @@ jobs:
           # base
           base: header, activity, community, repositories, metadata
           base_indepth: true
+          # setup plugin order
+          config_order: base, lines, languages, sponsorships, achievements
           # lines
           plugin_lines: yes
           # languages
           plugin_languages: yes
-          # followup
-          plugin_followup: yes
-          # achievements
-          plugin_achievements: yes
           # sponsorships
           plugin_sponsorships: yes
+          # achievements
+          plugin_achievements: yes
                   

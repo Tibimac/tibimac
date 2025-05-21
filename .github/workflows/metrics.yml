@@ -32,5 +32,5 @@ jobs:
           plugin_sponsorships: yes
           plugin_sponsorships_size: 32
           # achievements
-          plugin_achievements: yes
+          plugin_achievements: false
           plugin_achievements_display: compact
